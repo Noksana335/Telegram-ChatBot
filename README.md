@@ -68,10 +68,10 @@ Open a chat with your bot in Telegram and send messages to test emotion detectio
 - Unknown: Any neutral or ambiguous message → Expect generic supportive motivation
 
 ## Limitations
-- Rule-based emotion detection is simplistic and may misclassify messages
+- Rule-based emotion detection is simplistic and may misinterpret messages
 - Not a replacement for professional mental health care
 - English-only support
-- Context awareness is limited; nuanced or mixed emotions may not be identified accurately
+- Context awareness is limited; nuanced or mixed emotions cannot be identified properly
 
 ## Development Notes
 - Logging is enabled in `bot.py` for debugging. Increase or decrease verbosity as needed.
